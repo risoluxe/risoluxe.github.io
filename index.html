@@ -1,42 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Order Risol</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RISOLUXE – Order Resmi</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fffaf5;
+      color: #222;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: auto;
+      padding: 24px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 24px;
+      color: #555;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 16px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+    }
+
+    .shopee { background: #ee4d2d; }
+    .wa { background: #25d366; }
+    .gofood { background: #e11d48; }
+    .grab { background: #00b14f; }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
 </head>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/696be18bc29463197d046265/1jf6mi2oh';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-  
 <body>
-  <h1>Order Risol Homemade</h1>
-  <p>Isi form di bawah. Admin akan konfirmasi.</p>
 
-  <form action="https://formspree.io/f/mjgggzqw" method="POST">
-    <label>Nama:</label><br>
-    <input type="text" name="nama" required><br><br>
+  <div class="container">
+    <h1>RISOLUXE</h1>
+    <p>Homemade risoles. Fresh. Legit. No drama.</p>
 
-    <label>Produk:</label><br>
-    <input type="text" name="produk" required><br><br>
+    <!-- Ganti src dengan foto produk lo -->
+    <img src="produk.jpg" alt="Risoles RISOLUXE">
 
-    <label>Jumlah:</label><br>
-    <input type="number" name="jumlah" required><br><br>
+    <a href="https://shopee.co.id/USERNAME_LO" class="btn shopee">
+      Order via Shopee
+    </a>
 
-    <label>Alamat:</label><br>
-    <textarea name="alamat" required></textarea><br><br>
+    <a href="https://wa.me/628XXXXXXXXXX" class="btn wa">
+      Order via WhatsApp
+    </a>
 
-    <button type="submit">Kirim Order</button>
-  </form>
+    <a href="https://gofood.link/URLTOKOLO" class="btn gofood">
+      Order via GoFood
+    </a>
+
+    <a href="https://food.grab.com/ID/URLTOKOLO" class="btn grab">
+      Order via GrabFood
+    </a>
+
+    <div class="footer">
+      © 2026 RISOLUXE
+    </div>
+  </div>
+
 </body>
 </html>
